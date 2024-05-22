@@ -4,34 +4,28 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
-public class slide108 {public static void main(String[] args) {
+public class slide108 {
+    public static void main(String[] args) {
 
-TreeMap<Integer, Double> treeMap new TreeMap<>();
+        TreeMap<Integer, Double> treeMap = new TreeMap<>();
 
-treeMap.put(1, 9d);
+        treeMap.put(1, 9d);
+        treeMap.put(4, 10.1d);
+        treeMap.put(2, 7.2d);
+        treeMap.put(8, 20.28d);
 
-treeMap.put(4, 10.1d);
+        System.out.println("Các phần tử có trong treeMap: ");
 
-treeMap.put(2, 7.2d);
+        Set<Map.Entry<Integer, Double>> setTreeMap = treeMap.entrySet();
+        System.out.println(setTreeMap);
 
-treeMap.put(8, 20.28d);
+        treeMap.replace(4, 20.11d);
 
-System.out.println("Các phần tử có trong treeMap: ");
+        treeMap.replace(2, 7.2d, 7.7d);
 
-Set<Map.Entry<Integer, Double>> setTreeMap System.out.println(setTreeMap); treeMap.entrySet();
+        System.out.println("Các phần tử có trong treeMap sau khi thay thế:");
 
-
-
-treeMap.replace(4, 20.11d);
-
-
-/ có key là 2, value là 7.20 thành 7.70 /
-
-treeMap.replace(2, 7.2d, 7.7d);
-
-System.out.println("Các phần tử có trong treeMap sau khi thầy thế:
-
-setTreeMap treeMap.entrySet(); System.out.println(setTreeMap);
-
-    
+        setTreeMap = treeMap.entrySet(); 
+        System.out.println(setTreeMap);
+    }
 }
