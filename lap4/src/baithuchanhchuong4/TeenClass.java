@@ -1,4 +1,4 @@
-package lap4;
+package baithuchanhchuong4;
 
 public class TeenClass {
 	public static void main(String[] args) {

@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class slide42 {
 public class Date {
-public static void main(String[] args) { Scanner scanner new Scanner(System.in);
+public static void main(String[] args)
+ {
+	 Scanner scanner new Scanner(System.in);
 LinkedList<String> linkedList = new LinkedList<>();
 linkedList.add("Tháng 1");
 linkedList.add("Tháng 2");

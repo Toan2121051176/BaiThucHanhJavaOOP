@@ -14,13 +14,11 @@ public class slide25 {
 
 	System.out.println("Nhập số phân tử của ArrayList: ");
 
-	int n scanner.nextInt();
+	int new scanner.nextInt();
+    System.out.print("Nhập phân tử thứ " + i + ": ");
 
-
-
-	System.out.print("Nhập phân tử thứ " + i + ": ");
-
-	number scanner.nextInt(); arrListInteger.add(number);
+	number scanner.nextInt();
+	 arrListInteger.add(number);
 
 	}
 

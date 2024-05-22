@@ -9,7 +9,7 @@ public class slide94 {
         public static void main(String[] args) {
             Scanner sc = new Scanner( System.in);
             LinkedHashMap<String,String>  LKHM = new LinkedHashMap<>();
-            System.out.println("Nhap so luong can them vao map:");
+            System.out.println("Nhap so luong can them vao map :");
             int n= sc.nextInt();sc.nextLine();
             for(int i=0;i<n;i++) {
                 System.out.println("nhập tên:");

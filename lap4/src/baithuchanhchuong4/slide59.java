@@ -19,5 +19,5 @@ import java.util.Scanner;
             System.out.printf("Không tồn tại %s trong dãy",number);
         
     }
-    }
+   }
     
